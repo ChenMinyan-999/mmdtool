@@ -1,0 +1,7 @@
+# Runtime dependencies (both already present in the bundled/office Python).
+numpy>=1.24
+Pillow>=10.0
+
+# Optional, not required by the core pipeline:
+#   ffmpeg on PATH      -> mp4 encoding and mp3/flac/m4a decoding
+#   librosa / beat_this -> swap mmdance/music.py for better beat tracking
